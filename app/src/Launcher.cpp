@@ -18,7 +18,9 @@
 #include "sdk/Logger.h"
 
 #include <csignal>
-
+void test() {
+    // test function for commit
+}
 void signal_handler(int sig) {
     velocitas::logger().error("App terminated due to: Signal {}", sig);
     exit(-1);
