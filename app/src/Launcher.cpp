@@ -20,6 +20,7 @@
 #include <csignal>
 void test() {
     // test function for commit
+    // comment
 }
 void signal_handler(int sig) {
     velocitas::logger().error("App terminated due to: Signal {}", sig);
